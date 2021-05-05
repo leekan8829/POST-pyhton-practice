@@ -184,9 +184,6 @@ def multi_replace_meter(old_meter_list,new_meter_list):
 
 
 if __name__ == "__main__":
-    old_meter_list1 = ['TR12345613','TR12345615']
-    new_meter_list1 = ['TA12345613','TA12345615']
-    old_meter_new_fan_list1 = ['AB0000000113','AB0000000015']
     multi_move_fans(old_meter_list1,new_meter_list1,old_meter_new_fan_list1)
 
 
